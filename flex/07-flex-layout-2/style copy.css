@@ -1,0 +1,81 @@
+body {
+  border: 5px dashed blue;
+}
+.header {
+  border: 4px solid red;
+}
+.sidebar {
+  border: 4px dashed rgb(0, 255, 34);
+}
+
+.footer {
+  border: 4px dashed green;
+}
+.flex-container {
+  border: 5px dashed black;
+}
+.flex {
+  border: 6px dashed red;
+}
+a {
+  border: 2px solid rgb(240, 82, 82);
+}
+ul {
+  border: 2px dashed white;
+}
+li {
+  border: 2px solid brown;
+}
+.flex-items {
+  border: 3px dashed black;
+}
+
+/* above is border declaration for important boxes*/
+.card.one {
+  border: 3px solid rgb(0, 38, 255);
+}
+.card.two {
+  border: 3px solid rgb(255, 8, 0);
+}
+.card.three {
+  border: 3px solid rgb(0, 38, 255);
+}
+.card.four {
+  border: 3px solid rgb(255, 8, 0);
+}
+.card.five {
+  border: 3px solid rgb(0, 38, 255);
+}
+.card.six {
+  border: 3px solid rgb(255, 8, 0);
+}
+
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin: 0;
+  min-height: 100vh;
+}
+
+.header {
+  height: 72px;
+  background: darkmagenta;
+  color: white;
+}
+
+.footer {
+  height: 72px;
+  background: #eee;
+  color: darkmagenta;
+}
+
+.sidebar {
+  width: 300px;
+  background: royalblue;
+}
+
+.card {
+  border: 1px solid #eee;
+  box-shadow: 2px 4px 16px rgba(0,0,0,.06);
+  border-radius: 4px;
+}
