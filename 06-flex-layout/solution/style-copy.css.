@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+  border: 5px solid rgb(118, 122, 117);
+}
+div.header {
+  border: 3px dashed red;
+}
+div .left-links {
+  border: 2px solid black;
+}
+div .right-links {
+  border: 2px solid rgb(76, 238, 26);
+}
+div.content {
+  border: 3px dashed rgb(10, 52, 131);
+}
+img {
+  border: 2px solid black;
+}
+div.input {
+  border: 2px solid rgb(76, 238, 26);
+}
+div.buttons {
+  border: 2px solid rgb(180, 15, 158);
+}
+div.footer {
+  border: 3px dashed red;
+}
+.ag {
+  border: 2px solid rgb(145, 16, 16);
+}
+.ah {
+  border: 2px solid rgb(52, 165, 209);
+}
+
+body {
+  height: 100vh;
+  margin: 0;
+  overflow: hidden;
+  font-family: Roboto, sans-serif;
+}
+
+img {
+  width: 600px;
+}
+
+button {
+  font-family: Roboto, sans-serif;
+  border: none;
+  border-radius: 8px;
+  background: #eee;
+}
+
+input {
+  border: 1px solid #ddd;
+  border-radius: 16px;
+  padding: 8px 24px;
+  width: 400px;
+  margin-bottom: 16px;
+}
