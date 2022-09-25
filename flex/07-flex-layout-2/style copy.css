@@ -30,7 +30,7 @@ li {
   border: 3px dashed black;
 }
 
-/* above is border declaration for important boxes*/
+/* above is border declaration */
 .card.one {
   border: 3px solid rgb(0, 38, 255);
 }
