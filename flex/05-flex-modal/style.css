@@ -1,7 +1,36 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+/*
+body {
+  border: 4px dashed red;
+}
+.modal{
+  border: 4px solid green;
+}
+.icon {
+  border: 3px dashed navy;
+}
+.flex1 {
+  border: 3px solid palevioletred;
+}
+.header {
+  border: 3px dashed gray;
+}
+.close-button {
+  border: 3px dashed maroon;
+}
+.text {
+  border: 3px solid peru;
+}
+.flex2 {
+  border: 4px dashed green;
+}
+*/
+
+/*this is where border declaration stop*/
 
 html, body {
   height: 100%;
+  box-sizing: border-box;
 }
 
 body {
@@ -20,6 +49,9 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  display: flex;
+  padding: 15px;
+  
 }
 
 .icon {
@@ -33,6 +65,18 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex: 0 0 auto;
+  
+}
+
+.flex2 {
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.flex1 {
+  margin-left: 10px;
 }
 
 .close-button {
@@ -46,6 +90,13 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+ 
+}
+
+.text {
+  width: 420px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 button {
@@ -63,4 +114,9 @@ button.cancel {
   background: white;
   border: 1px solid #ddd;
   color: royalblue;
+}
+
+.header {
+  font-weight: bold;
+  font-size: 20px;
 }
